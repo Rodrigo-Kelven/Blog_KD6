@@ -1,3 +1,8 @@
+"""
+Este arquivo foi criado para simular um banco de dados para testes,está prática de criação de database fake é bastante recomendada para testes de projetos e aplicações prevenindo erros futuros.
+"""
+
+
 CLIENTES = [
 
     {"id":1, "nome":"Joao", "email":"Joao@gmail.com"},
