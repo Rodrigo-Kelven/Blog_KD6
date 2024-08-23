@@ -1,2 +1,4 @@
-Repositorio dedicado para armazerar pequenos projetos e anotaçoes para que eu possa retornar e tirar minhas dúvidas nas minhas anotações.
+# Repositorio dedicado para armazerar este pequeno projeto e anotaçoes para que eu possa retornar e tirar minhas dúvidas nas minhas anotações.
 Obs: os projetos podem ter muitos comentarios explicativos
+
+* https://rodrigo-kelven.github.io/Praticando_Flask/
