@@ -4,18 +4,19 @@ from controllers.artigs import router_article
 from controllers.portifolio import route_portifolio
 from enum import Enum
 
-
+# tasgs dos endpoints
 class Tags_route(Enum):
     Home = "Home"
     Artigs = "Article"
     Portifolio = "Portifolio"
 
-
+# tagas do prefixo dos endpoints
 class Prefix(Enum):
     api = "/api/blog/v1"
     api_auth = ""
 
 
+# funcao para centralizar todas as rotas 
 def all_routes(app):
     app.include_router(route_home, prefix=Prefix.api.value ,tags=[Tags_route.Home.value])
     app.include_router(router_article, prefix=Prefix.api.value, tags=[Tags_route.Artigs.value])

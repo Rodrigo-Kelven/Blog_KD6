@@ -11,4 +11,6 @@ app = FastAPI(
     redirect_slashes=True,
     redoc_url="/redoc",
     )
+
+# funcao centralizadora de rotas do projeto
 all_routes(app)
