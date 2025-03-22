@@ -1,5 +1,5 @@
 ## Projeto: Blog KD6  - Um Espaço de Conexão e Compartilhamento no Mundo Tech
-## Versão 1.0.0
+## Versão 1.0.2
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) 
 ![FastAPI](https://img.shields.io/badge/FastAPI-%23FF4F00.svg?style=for-the-badge&logo=fastapi&logoColor=white)

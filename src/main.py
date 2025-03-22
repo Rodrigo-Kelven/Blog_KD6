@@ -4,7 +4,7 @@ from controllers.all_routes import all_routes
 
 app = FastAPI(
     title="API Blog in FastAPI",
-    version="1.0.0",
+    version="1.0.2",
     description="Api of Blog and portifolio",
     debug=True,
     docs_url="/docs",
