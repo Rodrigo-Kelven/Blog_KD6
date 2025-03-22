@@ -12,7 +12,7 @@ class Tags_route(Enum):
 
 # tagas do prefixo dos endpoints
 class Prefix(Enum):
-    api = "/api/blog/v1"
+    api = "/api/v1/blog"
     api_auth = ""
 
 

@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from controllers.all_routes import all_routes
-
+import logging
 
 app = FastAPI(
     title="API Blog in FastAPI",
@@ -12,5 +12,10 @@ app = FastAPI(
     redoc_url="/redoc",
     )
 
-# funcao centralizadora de rotas do projeto
-all_routes(app)
+@app.on_event("startup")
+async def startup():
+    logging.info(
+        msg="Aplicacao inicializando..."
+    )
+    # funcao centralizadora de rotas do projeto
+    all_routes(app)
