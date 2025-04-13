@@ -1,5 +1,5 @@
 ## Projeto: Blog KD6  - Um Espaço de Conexão e Compartilhamento no Mundo Tech
-## Versão 1.0.2
+## Versão 1.0.4
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) 
 ![FastAPI](https://img.shields.io/badge/FastAPI-%23FF4F00.svg?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -41,6 +41,16 @@ Objetivos
   - Flexibilidade e Escalabilidade: Com a utilização de Flask e FastAPI, o projeto pode crescer facilmente para atender novas demandas.
   - Integração Multicanal: Ao unir diferentes plataformas, aumenta-se o alcance e o engajamento com o público.
   - Comunidade Ativa: A criação de espaços para discussão promove uma comunidade engajada e colaborativa.
+
+
+## Subindo projeto com Docker:
+### Docker
+```bash
+  docker build -t myapp .
+  docker run -p 8000:8000 myapp
+```
+
+
 
 ## Conclusão
 
